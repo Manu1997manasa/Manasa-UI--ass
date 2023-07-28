@@ -1,0 +1,19 @@
+{
+  "name": "my-node-project",
+  "version": "1.0.0",
+  "description": "This project is a simple Express.js server that serves as an API for managing a list of items. It uses AngularJS on the frontend to display the list of items and allows users to add new items and delete existing ones.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "server"
+  ],
+  "author": "manasa",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
