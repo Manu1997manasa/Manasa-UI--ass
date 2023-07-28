@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AngularJS App</title>
+</head>
+<body>
+  <h1>My AngularJS App</h1>
+  <!-- Your AngularJS app will go here -->
+  <div ng-app="myApp" ng-controller="myController">
+    <ul>
+      <li ng-repeat="item in items">{{ item }}</li>
+    </ul>
+    <input type="text" ng-model="newItem" />
+    <button ng-click="addItem()">Add Item</button>
+  </div>
+
+  <!-- AngularJS library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.3/angular.min.js"></script>
+
+  <!-- App script -->
+  <script src="app.js"></script>
+</body>
+</html>
